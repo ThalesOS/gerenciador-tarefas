@@ -1,0 +1,58 @@
+# ==========================================
+# IDEs e Editores
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==========================================
+# Backend (Java / Maven)
+# ==========================================
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+backend/HELP.md
+**/bin/
+*.class
+
+# ==========================================
+# Frontend (Node / Angular)
+# ==========================================
+**/node_modules/
+**/.angular/
+**/dist/
+.npm
+.eslintcache
+
+# ==========================================
+# Variáveis de Ambiente e Segredos
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+
+# ==========================================
+# Logs e Temporários
+# ==========================================
+*.log
+logs/
+*.tmp
+*.bak
